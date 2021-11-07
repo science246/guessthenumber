@@ -4,13 +4,23 @@
 
 <head>
 
-<title> Game | King Amda </title>
+<title>Guess The Number</title>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" />
+
 
 <style>
 
 h1 {
-		color : red ;
-	}
+      color : red ;
+      font-family: "Raleway", sans-serif;
+	        
+   }
+	
+p {
+      font-family: "Raleway", sans-serif;
+	        
+   }
+	
 	
 body {
 			background-color : #F6F4F4 ;
@@ -26,12 +36,11 @@ body {
 
 <body>
 
-<h1> What Number Is I Am Thinking... </h1>
-<p> What Number Is I Am Thinking.. </p>
-<p> ***Number Between 1 - 10 ***</p>
+<h1>Guess The Number</h1>
+<p>Between 1 - 10</p>
 <p> <input type ="text" id = "guess"> </p>
-<p> <button id = "guesschek"> Guess ! </button> </p>
-<p id="name"> Made By <a href="http://kingamdaa.ga">@KingAmda</a>
+<p> <button id = "guesschek"> Guess </button> </p>
+<p id="name"> Made By <a href="https://github.com/NabilAFK">@NabilAFK</a>
 
 
 <script type = "text/javascript">
@@ -50,11 +59,11 @@ randomnumber = Math.floor (randomnumber) ;
 
 if  ( document.getElementById ("guess").value == randomnumber ) {
 
-alert ("Conrejulations Bro !! You Are Win!! Common !!");
+alert ("Congratulations, you won!");
 }
 
 else {
- alert (" Oh ! Nope !! You Are Faild... Try Again..") ;
+ alert ("Wrong number chosen! Try again..?") ;
 
 		}
 	
